@@ -4,5 +4,5 @@
   </a>
 </p>
 
-# Ice Cream 🍦
+# Ice Cream
 
