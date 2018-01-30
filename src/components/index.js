@@ -19,7 +19,7 @@ import {iForm, iFormItem} from './form'
 import iModal from './modal'
 
 export default angular.module('iceCream', [])
-  .component('iIcon', iIcon)
+  .directive('iIcon', iIcon)
   .directive('iButton', iButton)
   .directive('iButtonGroup', iButtonGroup)
   .component('iInput', iInput)

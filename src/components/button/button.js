@@ -1,9 +1,9 @@
 const directive = function() {
   const prefixCls = 'ivu-btn'
   const template = `
-    <button ng-class="classes()" ng-disabled="disabled">
+    <button ng-class="classes()">
       <i class="ivu-load-loop ivu-icon ivu-icon-load-c" ng-if="loading"></i>
-      <i-icon type="icon" ng-if="icon && !loading"></i-icon>
+      <i-icon type="{{icon}}" ng-if="icon && !loading"></i-icon>
       <ng-transclude>
       </ng-transclude>
     </button>
@@ -34,10 +34,10 @@ const directive = function() {
       size: '@',
       shape: '@',
       long: '<',
-      disabled: '<',
       loading: '<',
       icon: '@'
-    }
+    },
+    replace: true
   }
 }
 

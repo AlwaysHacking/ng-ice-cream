@@ -24,7 +24,8 @@ const directive = function() {
       size: '@',
       shape: '@',
       vertical: '<'
-    }
+    },
+    replace: true
   }
 }
 

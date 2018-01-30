@@ -7,6 +7,10 @@ export default function routes($urlRouterProvider, $stateProvider) {
       url: '/button',
       template: '<button-view></button-view>'
     })
+    .state('button-group', {
+      url: '/button-group',
+      template: '<button-group-view></button-group-view>'
+    })
     .state('tabs', {
       url: '/tabs',
       template: '<tabs-view></tabs-view>'
