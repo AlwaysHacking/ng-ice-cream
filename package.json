@@ -16,8 +16,9 @@
   "author": "Simon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com//iview/issues"
+    "url": "https://github.com/HaitianLiu/ng-ice-cream/issues"
   },
+  "main": "src/components/index.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
